@@ -2,11 +2,11 @@
 
 # Video Demo
 Inquirer Terminal
-![Employee Summary](./Assets/inquirer.mov)
+![Employee Summary](./Assets/inquirer.gif)
 
 
 Test
-![Employee Summary](./Assets/test.mov)
+![Employee Summary](./Assets/test.gif)
 
 # Unit 10 OOP Homework: Template Engine - Employee Summary
 
