@@ -17,7 +17,7 @@ let ID = 1;
 
 async function main() {
     console.log(`[main] Starting...`)
-    const team=[]
+    const team = []
 
     const managerData = await inquirer.prompt([
         {
@@ -41,8 +41,7 @@ async function main() {
             message: "How many people work in the team?"
         }
     ])
-
-    team.push(new Manager(managerData.name, ID++, managerData.email, managerData.officeNumber, managerData.count))
+    team.push( new Manager(managerData.name, ID++, managerData.email, managerData.officeNumber, managerData.count))
 
     for (let userCnt = 1; userCnt<=managerData.count ; userCnt++ ) {
         const user = await inquirer.prompt([
